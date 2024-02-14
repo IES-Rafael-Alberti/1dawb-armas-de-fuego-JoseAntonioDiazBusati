@@ -1,0 +1,11 @@
+class Pistola(
+    municion:Int,
+    tipoDeMunicion:String,
+    override val danio: Int,
+    override val radio: Radio
+    ):ArmaDeFuego("Pistola", municion,1,tipoDeMunicion) {
+        init {
+            require(radio == Radio.Reducido || radio == Radio.Corto){"Error radio"}
+
+        }
+}
