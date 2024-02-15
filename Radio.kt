@@ -1,3 +1,3 @@
 enum class Radio {
-    Reducido, Corto, Intermedio, Amplio, Enorme
+    REDUCIDO, CORTO, INTERMEDIO, AMPLIO, ENORME
 }

@@ -5,7 +5,7 @@ class Bazooka(
     override val radio: Radio
     ):ArmaDeFuego("Bazooka", municion,3,tipoDeMunicion) {
     init {
-        require(radio == Radio.Intermedio|| radio == Radio.Amplio || radio == Radio.Enorme){"Error radio"}
+        require(radio == Radio.INTERMEDIO|| radio == Radio.AMPLIO || radio == Radio.ENORME  ){"Error radio"}
 
     }
 }
